@@ -1,0 +1,83 @@
+/* Resetting default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fffbeb;
+  color: #333;
+}
+
+header {
+  background-color: #1c315e;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+section {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+aside {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+footer {
+  background-color: #1c315e;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Colors for links */
+a {
+  color: #007bff;
+}
+
+a:hover {
+  color: #fffbeb;
+}
+.profile-photo {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    object-fit: cover;
