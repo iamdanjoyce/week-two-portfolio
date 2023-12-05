@@ -24,13 +24,17 @@ header {
 nav p {
   justify-content: center;
   align-items: center;
+  margin: 0;
+  padding:0;
 }
+
 nav {
-  color: #007bff;
+  color: #fff;
 }
 
 a {
-  color: #007bff;
+  color: #fff;
+
 }
 
 a:hover {
@@ -45,6 +49,7 @@ main {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 
 footer {
   background-color: #333;
@@ -68,8 +73,8 @@ p {
   padding: 20px;
   box-sizing: border-box;
   border: dotted;
-  display: flex;
-  flex-direction: column;
+  display: block grid;
+  /* flex-direction: row; */
   justify-content: space-between;
 }
 
